@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/semi_transparent_black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/instructions_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/instructions_overlay_title"
+        android:textColor="@color/holo_light_blue"
+        android:textSize="@dimen/about_title" />
+
+    <View
+        android:id="@+id/instructions_separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/instructions_title"
+        android:layout_marginTop="10dp"
+        android:background="@color/holo_light_blue" />
+
+    <LinearLayout
+        android:id="@+id/instructions_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/instructions_buttom_background"
+            android:onClick="instructionsOnCancelClick"
+            android:padding="@dimen/instructions_ok_cancel_padding"
+            android:text="@string/instructions_overlay_button_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/instructions_buttons" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/instructions_bottom_separators" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/instructions_buttom_background"
+            android:onClick="instructionsOnOkClick"
+            android:padding="@dimen/instructions_ok_cancel_padding"
+            android:text="@string/instructions_overlay_button_ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/instructions_buttons" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/instructions_buttons"
+        android:background="@color/instructions_bottom_separators" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/instructions_buttons"
+        android:layout_below="@id/instructions_separator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:contentDescription="@string/instructions_overlay_point_1"
+                android:src="@drawable/icon_01" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:text="@string/instructions_overlay_number_1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/instructions_numbers"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="top"
+                    android:text="@string/instructions_overlay_point_1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/instructions_points" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:contentDescription="@string/instructions_overlay_point_2"
+                android:src="@drawable/icon_02" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:text="@string/instructions_overlay_number_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/instructions_numbers"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="top"
+                    android:text="@string/instructions_overlay_point_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/instructions_points" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:contentDescription="@string/instructions_overlay_point_3"
+                android:src="@drawable/icon_03" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:text="@string/instructions_overlay_number_3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/instructions_numbers"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="top"
+                    android:text="@string/instructions_overlay_point_3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/instructions_points" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

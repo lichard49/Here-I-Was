@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UsrDefTarget</string>
+    <string name="app_description">QCAR UserDefinedTargets Sample Application</string>
+    <string name="activity_splash_title">UserDefined \nTargets</string>
+    <string name="activity_splash_subtitle">sample application</string>
+    <string name="about_title">About</string>
+    <string name="about_text">This sample app illustrates how to use the Vuforia UserDefinedTargets feature. This app doesn’t require a predefined image target in order to view the augmentation.  Instead, the user can define the image that they want to use as a target for the augmented 3D teapot. &lt;br />&lt;br />To use this app:&lt;br />1. Point your device at an image such as a poster, magazine page, packaging, etc.&lt;/a>&lt;br />&lt;br />2. Follow the instructions for capturing an image&lt;br />&lt;br />3. See the teapot augmented on top of your image&lt;br />&lt;br />© 2012-2013 Qualcomm Austria Research Center GmbH. All rights reserved.&lt;br />Subject to agreements at &lt;a href="http://developer.vuforia.com/legal/EULA">developer.vuforia.com/legal/EULA &lt;/a>&lt;&lt;br />&lt;br /></string>
+    <string name="button_start">Start</string>
+    <string name="content_desc_vuforia_logo">Vuforia Logo</string>
+    <string name="content_desc_vuforia_background">Vuforia Background</string>
+    <string name="content_desc_camera_button">Camera Button</string>
+    <string name="content_desc_close_button">Close Button</string>
+    <string name="content_desc_new_target_button">New Target Button</string>
+    <string name="menu_flash_on">Flash On</string>
+    <string name="menu_flash_off">Flash Off</string>
+    <string name="menu_contAutofocus_on">Cont. Autofocus On</string>
+    <string name="menu_contAutofocus_off">Cont. Autofocus Off</string>
+    <string name="menu_camera_title">Options</string>
+    <string name="instructions_overlay_title">Instructions</string>
+    <string name="instructions_overlay_number_1">1.</string>
+    <string name="instructions_overlay_number_2">2.</string>
+    <string name="instructions_overlay_number_3">3.</string>
+    <string name="instructions_overlay_point_1">Hold the device \nparallel to the target</string>
+    <string name="instructions_overlay_point_2">Fill the viewfinder \nwith the target</string>
+    <string name="instructions_overlay_point_3">Take picture</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="instructions_overlay_button_ok">OK</string>
+    <string name="instructions_overlay_button_cancel">Cancel</string>
+    <string name="overlay_build_target_help">Hold the device parallel to the target</string>
+    <string name="target_quality_error_title">Low Quality Image</string>
+    <string name="target_quality_error_desc">The image has very little detail, please try another.</string>
+    
+</resources>

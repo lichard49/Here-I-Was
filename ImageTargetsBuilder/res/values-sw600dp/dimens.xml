@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="about_title">25sp</dimen>
+    <dimen name="about_text">23sp</dimen>
+    <dimen name="splash_title">80sp</dimen>
+    <dimen name="splash_subtitle">40sp</dimen>
+    <dimen name="instructions_points">30sp</dimen>
+    <dimen name="instructions_buttons">30sp</dimen>
+    <dimen name="instructions_numbers">60sp</dimen>
+    <dimen name="cancel_text">22sp</dimen>
+
+</resources>
